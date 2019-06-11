@@ -29,14 +29,13 @@ public class DiscoveryApplication {
     SpringApplication.run(DiscoveryApplication.class, args);
   }
 }
-
  ```
 This is sufficient to let the application have an embedded `Eureka Server`. 
-## 
  
+ ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ1NDM5NDksLTY2MjE0MjQzNyw3Mj
-Y5MzM2MDQsLTE2NzA4MjE0NDMsMTUyNDA5NzMsLTExMjk3NzQz
-NDcsMzI3MTY2MDUyLC0yNTAwODU5NTUsODQ5Nzg3MjAsLTE0NT
-c2NDk2MjldfQ==
+eyJoaXN0b3J5IjpbLTEzNTg3MDQ2MjUsLTE3MjQ1NDM5NDksLT
+Y2MjE0MjQzNyw3MjY5MzM2MDQsLTE2NzA4MjE0NDMsMTUyNDA5
+NzMsLTExMjk3NzQzNDcsMzI3MTY2MDUyLC0yNTAwODU5NTUsOD
+Q5Nzg3MjAsLTE0NTc2NDk2MjldfQ==
 -->
