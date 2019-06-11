@@ -7,10 +7,10 @@ With a **Registry and Discovery mechanism**, there is a **Registry Service** a k
 A microservice can communicate with any other registered one without having to know more than its name. 
 
 ## Embedding Eureka
-To have a **registry  and discovery service** 
+To have a **registry  and discovery service** we just need a *Spring Boot Application* with its `pom` having the appropriate depedency   annotated 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTE2Njk0MiwtMTY3MDgyMTQ0MywxNT
+eyJoaXN0b3J5IjpbLTczODczMjk2MiwtMTY3MDgyMTQ0MywxNT
 I0MDk3MywtMTEyOTc3NDM0NywzMjcxNjYwNTIsLTI1MDA4NTk1
 NSw4NDk3ODcyMCwtMTQ1NzY0OTYyOV19
 -->
