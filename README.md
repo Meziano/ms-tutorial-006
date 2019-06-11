@@ -14,15 +14,28 @@ To have a **registry  and discovery service** we just need a *Spring Boot Applic
   <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 </dependency>
 ```
- and its main-class annotated with `@EnableEurekaServer`. 
+ and its main-class annotated with `@EnableEurekaServer`:
  ```
- 
+ package de.meziane.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@EnableEurekaServer
+@SpringBootApplication
+public class DiscoveryApplication {
+  public static void main(String[] args) {
+    SpringApplication.run(DiscoveryApplication.class, args);
+  }
+}
+
  ```
 This is sufficient to let the application have an embedded `Eureka Server`. 
 ## 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA0NDQzNDUsLTY2MjE0MjQzNyw3Mj
+eyJoaXN0b3J5IjpbLTE3MjQ1NDM5NDksLTY2MjE0MjQzNyw3Mj
 Y5MzM2MDQsLTE2NzA4MjE0NDMsMTUyNDA5NzMsLTExMjk3NzQz
 NDcsMzI3MTY2MDUyLC0yNTAwODU5NTUsODQ5Nzg3MjAsLTE0NT
 c2NDk2MjldfQ==
