@@ -36,7 +36,7 @@ public class DiscoveryApplication {
 ```
 This is sufficient to let the application have an embedded `Eureka Server`. 
  ###  A central configuration file for discovery-service
- As for for the **employee-service** and **department-service** to the file system repository
+ As for **employee-service** and **department-service**  we must add for the **discovery-service** a `configuration file` to the file system repository
  ```
 server.port=8761
 eureka.instance.client.register-with-eureka=false
@@ -44,7 +44,7 @@ eureka.instance.client.serviceurl.default-zone=http://localhost:8761/eureka/
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjg5NTM1NywtMTM1ODcwNDYyNSwtMT
+eyJoaXN0b3J5IjpbMTE4NzEwMDg4MiwtMTM1ODcwNDYyNSwtMT
 cyNDU0Mzk0OSwtNjYyMTQyNDM3LDcyNjkzMzYwNCwtMTY3MDgy
 MTQ0MywxNTI0MDk3MywtMTEyOTc3NDM0NywzMjcxNjYwNTIsLT
 I1MDA4NTk1NSw4NDk3ODcyMCwtMTQ1NzY0OTYyOV19
