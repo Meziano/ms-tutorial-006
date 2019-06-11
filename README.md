@@ -7,11 +7,18 @@ With a **Registry and Discovery mechanism**, there is a **Registry Service** a k
 A microservice can communicate with any other registered one without having to know more than its name. 
 
 ## Embedding Eureka
-To have a **registry  and discovery service** we just need a *Spring Boot Application* with its `pom` having the appropriate depedency `pring-cloud-starter-eureka-server` and its main-class annotated with `@EnableEurekaServer`. This is sufficient to let the application have an embedded `Eureka Server`. 
+To have a **registry  and discovery service** we just need a *Spring Boot Application* with its `pom` having the appropriate depedency:
+```
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+</dependency>
+```
+ and its main-class annotated with `@EnableEurekaServer`. This is sufficient to let the application have an embedded `Eureka Server`. 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2OTMzNjA0LC0xNjcwODIxNDQzLDE1Mj
-QwOTczLC0xMTI5Nzc0MzQ3LDMyNzE2NjA1MiwtMjUwMDg1OTU1
-LDg0OTc4NzIwLC0xNDU3NjQ5NjI5XX0=
+eyJoaXN0b3J5IjpbLTY2MjE0MjQzNyw3MjY5MzM2MDQsLTE2Nz
+A4MjE0NDMsMTUyNDA5NzMsLTExMjk3NzQzNDcsMzI3MTY2MDUy
+LC0yNTAwODU5NTUsODQ5Nzg3MjAsLTE0NTc2NDk2MjldfQ==
 -->
