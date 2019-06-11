@@ -4,10 +4,13 @@ Until now we have hard-coded the hostnames and the port numbers of our microserv
 In this tuturial we will introduce a **Discovery mechanism** in order to let any microservice find any other just with its name.
 
 With a **Registry and Discovery mechanism**, there is a **Registry Service** a kind of `phone book`, each microservice must register itself with it and tells it where it lives (hostname, port, ..). 
-A microservice can communicate with any other registered one without having to know more than its name.   
+A microservice can communicate with any other registered one without having to know more than its name. 
+
+## Embedding Eureka
+To have a **registry  and discovery service** 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MTU4NDYxLC0xNjcwODIxNDQzLDE1Mj
-QwOTczLC0xMTI5Nzc0MzQ3LDMyNzE2NjA1MiwtMjUwMDg1OTU1
-LDg0OTc4NzIwLC0xNDU3NjQ5NjI5XX0=
+eyJoaXN0b3J5IjpbMjEzMTE2Njk0MiwtMTY3MDgyMTQ0MywxNT
+I0MDk3MywtMTEyOTc3NDM0NywzMjcxNjYwNTIsLTI1MDA4NTk1
+NSw4NDk3ODcyMCwtMTQ1NzY0OTYyOV19
 -->
