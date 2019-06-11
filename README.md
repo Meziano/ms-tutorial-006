@@ -19,9 +19,8 @@ To have a **registry  and discovery service** we just need a *Spring Boot Applic
 </dependency>
 ```
 #### The annotation
-
-
- package de.meziane.ms;
+```
+package de.meziane.ms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -34,11 +33,13 @@ public class DiscoveryApplication {
     SpringApplication.run(DiscoveryApplication.class, args);
   }
 }
- ```
-This is sufficient to let the application have an embedded `Eureka Server`.  
- 
+```
+This is sufficient to let the application have an embedded `Eureka Server`. 
+ ###  A central configuration file for discovery-service
+ As for 
+ ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE3MDI1MCwtMTM1ODcwNDYyNSwtMT
+eyJoaXN0b3J5IjpbLTY4NzQ0NzUwMywtMTM1ODcwNDYyNSwtMT
 cyNDU0Mzk0OSwtNjYyMTQyNDM3LDcyNjkzMzYwNCwtMTY3MDgy
 MTQ0MywxNTI0MDk3MywtMTEyOTc3NDM0NywzMjcxNjYwNTIsLT
 I1MDA4NTk1NSw4NDk3ODcyMCwtMTQ1NzY0OTYyOV19
